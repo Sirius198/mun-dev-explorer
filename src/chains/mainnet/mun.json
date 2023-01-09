@@ -1,8 +1,8 @@
 {
     "chain_name": "MUN",
     "coingecko": "",
-    "api": "https://node1api.mun.money",
-    "rpc": ["https://node1.mun.money"],
+    "api": "http://3.113.244.157/api-cosmos",
+    "rpc": ["http://3.113.244.157/api-tendermint"],
     "snapshot_provider": "",
     "sdk_version": "0.45.10",
     "coin_type": "118",
