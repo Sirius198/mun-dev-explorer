@@ -604,7 +604,6 @@ export default class ChainFetch {
     }
     const conf = config || this.config
     const finalurl = (Array.isArray(conf.api) ? conf.api[this.getApiIndex(config)] : conf.api) + url
-    console.log(finalurl)
     // finalurl = finalurl.replaceAll('v1beta1', this.getEndpointVersion())
     const ret = await fetch(finalurl).then(response => response.json())
     return ret
