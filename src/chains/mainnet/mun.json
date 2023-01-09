@@ -1,0 +1,19 @@
+{
+    "chain_name": "MUN",
+    "coingecko": "",
+    "api": "https://node1api.mun.money",
+    "rpc": ["https://node1.mun.money"],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.10",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "mun",
+    "logo": "/logos/mun.png",
+    "assets": [{
+        "base": "utmun",
+        "symbol": "TMUN",
+        "exponent": "6",
+        "coingecko_id": "dig-chain", 
+        "logo": "/logos/mun.png"
+    }]
+}
